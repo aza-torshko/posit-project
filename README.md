@@ -9,7 +9,7 @@
 
 ### 1 Clone the Repository
 ```bash
-git clone https://github.com/yourusername/posit-cloud-automation.git
+git clone https://github.com/aza-torshko/posit-project.git
 ```
 
 ### 2 Install Dependencies
