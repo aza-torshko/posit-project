@@ -10,6 +10,7 @@
 ### 1 Clone the Repository
 ```bash
 git clone https://github.com/aza-torshko/posit-project.git
+cd posit-project
 ```
 
 ### 2 Install Dependencies
