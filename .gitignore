@@ -1,0 +1,4 @@
+test_report.html
+__pycache__/
+tests/test_file_management.py
+tests/test_project_management.py
