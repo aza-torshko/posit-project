@@ -60,7 +60,7 @@ Pytest is a testing framework for Python that makes writing tests simple and rea
 ###  Pipenv
 Pipenv helps manage dependencies and virtual environments.
 
-## 📌 Folder Structure
+##  Folder Structure
 ```bash
 📂 posit-project/
 │-- 📂 tests/
@@ -76,21 +76,21 @@ Pipenv helps manage dependencies and virtual environments.
 │-- 📄 README.md  # Documentation
 ```
 
-## 🛠 Troubleshooting
-#### 🔹 Pipenv Not Found?
+##  Troubleshooting
+####  Pipenv Not Found?
 ```bash
 python3 -m pip install --user pipenv
 ```
 
-#### 🔹 Playwright Not Installed?
+####  Playwright Not Installed?
 ```bash
 pipenv run playwright install
 ```
 
-#### 🔹 Browser Not Launching?
+####  Browser Not Launching?
 ```bash
 pipenv run playwright install
 pipenv run pytest --headed
 ```
 
-### ✅ Now You're Ready to Automate Posit.Cloud!
+### Now You are Ready to Automate Posit.Cloud!
