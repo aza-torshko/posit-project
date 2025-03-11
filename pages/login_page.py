@@ -2,7 +2,7 @@ from playwright.sync_api import Page
 
 class LoginPage:
     def __init__(self, page: Page):
-        """Initialize login locators"""
+        """Login Page locators"""
         self.page = page
         self.login_link = page.locator("//a/span[text()='Log In']")
         self.login_header = page.locator("//h2/span['Log In']")

@@ -13,7 +13,7 @@ class LoginActions:
         self.page.goto("https://posit.cloud/")
 
     def login(self):
-        """Perform login action using Playwright locators."""
+        """Login to account on posit.cloud"""
         email = self.config.get_email()
         password = self.config.get_password()
         self.login_page.login_link.click()

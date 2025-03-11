@@ -2,7 +2,7 @@ from playwright.sync_api import Page
 
 class SpacePage:
     def __init__(self, page: Page):
-        """General Locators"""
+        """Space Page Locators"""
         self.page = page
         self.space_name = page.locator("input#name")
         self.space_name_with_owner = page.locator("//div[@class='spaceNameWithOwner']")

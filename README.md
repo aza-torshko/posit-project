@@ -4,7 +4,8 @@
 
 ### Make Sure You Have the Following Installed:
 -  **Python 3.x** (Check with `python --version` or `python3 --version`)
--  **Pipenv** (Install with `pip install pipenv`)
+-  **Pip** (Check with `pip --version`. If missing, install with `python3 -m ensurepip --default-pip`)
+-  **Pipenv** (Install with `pip install --user pipenv`)
 -  **Playwright** (Install with `pipenv run playwright install`)
 
 ### 1 Clone the Repository
@@ -35,11 +36,6 @@ pipenv run pytest tests/test_create_space_project.py
 ####  Run a Specific Test Case
 ```bash
 pipenv run pytest -k test_create_space_and_project
-```
-
-####  Run Tests in Headless Mode
-```bash
-pipenv run pytest --headless
 ```
 
 ####  Generate an HTML Report
